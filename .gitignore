@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Project databases and their sidecar/backup files contain research data
+*.slrdb*
+*.sqlite*
+
+# Raw database exports (research data; publisher terms may restrict sharing)
+export*.csv
+savedrecs*
+
+# Tracker backups written by "Sync into existing tracker"
+*.xlsx.*.bak
